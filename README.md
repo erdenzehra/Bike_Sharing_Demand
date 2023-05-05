@@ -39,13 +39,16 @@ Performance Comparison
    R-squared (R2) score
    
    1 - Random Forest
-   <img width="227" alt="Screenshot 2023-05-05 113031" src="https://user-images.githubusercontent.com/92418510/236515314-9fd4f752-6856-4b6d-a17d-d389430b462e.png">
+   
+<img width="227" alt="Screenshot 2023-05-05 113031" src="https://user-images.githubusercontent.com/92418510/236515314-9fd4f752-6856-4b6d-a17d-d389430b462e.png">
    
    2 - XGBoost
-   <img width="213" alt="Screenshot 2023-05-05 113318" src="https://user-images.githubusercontent.com/92418510/236515514-48a417a7-a855-4018-840d-883388ff3b1b.png">
+   
+<img width="213" alt="Screenshot 2023-05-05 113318" src="https://user-images.githubusercontent.com/92418510/236515514-48a417a7-a855-4018-840d-883388ff3b1b.png">
    
    3 - LightGBM
-   <img width="240" alt="Screenshot 2023-05-05 113414" src="https://user-images.githubusercontent.com/92418510/236515752-4e198d09-aaf2-4c3f-9ddf-7be4bb99d614.png">
+   
+<img width="240" alt="Screenshot 2023-05-05 113414" src="https://user-images.githubusercontent.com/92418510/236515752-4e198d09-aaf2-4c3f-9ddf-7be4bb99d614.png">
 
     -------------------------------------------------------------------------
 
