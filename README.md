@@ -2,39 +2,60 @@
 
 This repository holds an attempt to predict bike sharing system demand using data from "Bike Sharing Demand" Kaggle challenge https://www.kaggle.com/competitions/bike-sharing-demand.
 
+TASK
+
 The task is to use machine learning to predict when will demand on bike sharing/renting system will increase/decrease by using past data.
-
 The approach in this repository formulates the problem as regression task with series of features as input. Performance of 3 machine learning model compared.
-
 My best model was random forest regressor.
 
-Data
-  Data: bike rent information
-  Type: categorical and numerical
-  Input: CSV file with features(windspeed, temperature etc) output: datatime + count
-  Size: 1.22MB
-  Instances: train (10887) and test (6494)
+DATA
 
-Preprocessing / Clean up
+  Data: bike rent information
+  
+  Type: categorical and numerical
+  
+  Input: CSV file with features(windspeed, temperature etc) output: datatime + count
+  
+  Size: 1.22MB
+  
+  Instances: train (10887) and test (6494)
+  
+  
+
+PREPROCESSING/CLEAN-UP
+
   -filling null values
+  
   -checking for outliers
+  
   -"datatime" feature separatin
+  
   -dropping "casual" and "registered" from train dataset
   
-Data Visualization
-  - count vs other features scatterplot
-  - correlation heatmap
-  - predicted bike rental count over time
   
-Problem Formulation
+DATA VISUALIZATION
+ 
+ 
+<img width="458" alt="Screenshot 2023-05-05 114433" src="https://user-images.githubusercontent.com/92418510/236517699-ecb7ac6b-bc2f-4757-8fd0-506a58c67247.png">
+
+
+<img width="392" alt="Screenshot 2023-05-05 114418" src="https://user-images.githubusercontent.com/92418510/236517717-b8e40784-a174-487b-ab62-f5f1204c41ce.png">
+
+  
+PROBLEM FORMULATION
+
   Predict bike rent count by date based on season, temparature, humidty etc of that day.
   
   Models
+  
     - Random Forest Regression Model
+    
     - XGBoost Regression Model
+    
     - LightGBM Regressor Model
    
-Performance Comparison
+PERFORMANCE COMPARISON
+
    Mean Squared Error (MSE)
    R-squared (R2) score
    
@@ -50,9 +71,9 @@ Performance Comparison
    
 <img width="240" alt="Screenshot 2023-05-05 113414" src="https://user-images.githubusercontent.com/92418510/236515752-4e198d09-aaf2-4c3f-9ddf-7be4bb99d614.png">
 
-    -------------------------------------------------------------------------
+  
 
-  Conclusions
+  CONCLUSIONS
   
 <img width="334" alt="Screenshot 2023-05-05 112913" src="https://user-images.githubusercontent.com/92418510/236514802-46794c13-8673-4e78-934f-d9a0b2dab607.png">
 
